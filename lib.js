@@ -17,8 +17,6 @@ function max(numbers){
     return numbers.reduce((max, curr) => (max > curr ? max : curr), 0)
 }
 
-exports.sum = sum;
-localStorage
 module.exports = {
     sum,
     avg,
